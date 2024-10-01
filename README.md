@@ -61,7 +61,7 @@
     - In your project folder, create a file named main.tf with the following content:
     ```bash
       provider "aws" {
-         region = "us-west-2"
+         region = "eu-north-1"
       }
 
       resource "aws_iam_role" "lambda_role" {
