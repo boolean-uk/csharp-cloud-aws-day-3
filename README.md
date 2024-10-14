@@ -56,6 +56,13 @@
 ## Use Terraform to Automate Lambda Deployment
 ## Prerequisites:
    -[] Ensure that Terraform CLI is installed and AWS CLI is configured.
+   - [Terraform](https://developer.hashicorp.com/terraform/install)
+     - Add the Terraform.exe to your `C:\Program Files\Git\usr\bin` (If you have git Bash install.)
+     - Otherwise and directory of your choice. 
+     - Add the Directory to your Environment Variable `%PATH%`
+     - Steps on how to do it here [Setup of Terraform in Environment Variables](https://stackoverflow.com/a/55949463)
+   - [AWS Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
+   
 ### Steps
 1. Write Terraform Configuration:
     - In your project folder, create a file named main.tf with the following content:
