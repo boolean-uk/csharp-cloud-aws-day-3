@@ -23,15 +23,29 @@
    - Select the C# (.NET Core) runtime.
    - Click Create function.
 
-2. Open the AWSLambda-Day-3 Solution
-   - Add Extension call AWS Toolkit.
-   - Open up the AWS Explorer. Views > AWS Explorer
-   - Add new User Credentials
-   - Select for Profile Type `IAM User Role`
-   - Open the steps to create a AccessKey and Secret Key
+2. Create an AWS Cli Access Key for your account
+   - navigate to AWS IAM
+   - under `Users`, find your username and click on it
+   - visit the `Security Credentials` tab
+   - Click on `Create Access Key`
+   - Choose `Command Line Interface` as the Use Case
+   - Save the Access Key safely on your machine
+   - Click `show` and copy and save the Secret access key as well
 
-3. Application to AWS 
-   - Right click on Project to Publish Lambda function to AWS
+3. Open the AWSLambda-Day-3 Solution
+   - Install the Extension called AWS Toolkit in Visual Studio.
+   - Once installed, open up AWS Explorer in VS: Views > AWS Explorer
+   - Add new Profile with your User Credentials
+      - Profile Type is `IAM User Role`
+      - Profile Name: choose your name or some identifier tied to you
+      - Enter the Access key and Secret key obtained in step 2 above
+      - Ensure you pick the default region for your AWS services
+
+4. Publish Application to AWS Lambad
+   - Right click on Project and choose `Publish Lambda function to AWS`
+   - Make sure to select the created profile in step 3 and the correct region
+   - Choose `Redeploy to existing` and find the lambda you created in step 1
+   - Click `Upload`
    OR
    - You can publish to folder and zip and upload manually
 
@@ -46,7 +60,7 @@
    -[] Ensure that Terraform CLI is installed and AWS CLI is configured.
    - [Terraform](https://developer.hashicorp.com/terraform/install)
      - Add the Terraform.exe to your `C:\Program Files\Git\usr\bin` (If you have git Bash install.)
-     - Otherwise and directory of your choice. 
+     - Otherwise and directory of your choice.
      - Add the Directory to your Environment Variable `%PATH%`
      - Steps on how to do it here [Setup of Terraform in Environment Variables](https://stackoverflow.com/a/55949463)
    - [AWS Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
