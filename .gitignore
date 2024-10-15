@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+AWSLambda-Day-3/AWSLambda-Day-3/.terraform
