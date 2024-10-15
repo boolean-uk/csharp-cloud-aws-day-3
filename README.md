@@ -48,7 +48,7 @@
 
 ## Use Terraform to Automate Lambda Deployment
 ## Prerequisites:
-   -Download Terraform
+   -Download Terraform (Windows 386)
    - [Terraform](https://developer.hashicorp.com/terraform/install)
      - Move the Terraform.exe to your `C:\Program Files\Git\usr\bin`
      - Open `Edit the system environment variables` (Windows Search)
