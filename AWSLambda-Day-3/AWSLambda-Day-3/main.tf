@@ -21,7 +21,7 @@
      function_name    = "JoaquinBackendFunctionTerraform"
      role             = aws_iam_role.lambda_role.arn
      handler          = "AWSLambda-Day-3::AWSLambda_Day_3.Function::FunctionHandler"
-     runtime          = "dotnet6"
+     runtime          = "dotnet8"
      source_code_hash = filebase64sha256("backend.zip")
   }
 
