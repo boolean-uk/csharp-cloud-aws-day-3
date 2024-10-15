@@ -196,6 +196,8 @@ Congratulations, Terraform is now done!
 
 P.S Make sure to take screenshots of the results and create a pull request with your screenshots to show you did it!
 
+!!! IMPORTANT. MAKE SURE THAT YOU ADD YOUR `.terraform` FOLDER TO `.gitignore` OTHERWISE YOUR COMMIT WILL FAIL !!!
+
 ## (Optional) Split Functionalities into Multiple Lambda Functions
 ### Steps
 
