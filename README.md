@@ -60,7 +60,7 @@
 ### Steps
 1. Write Terraform Configuration:
     - In your project folder, create a file named main.tf with the following content:
-    - Replace `{Personal Email}` with your personal email found in `https://us-east-1.console.aws.amazon.com/iam/home?region=eu-north-1#/users`
+    - Replace `{Personal Email}` with your personal email found in [AWS Users](https://us-east-1.console.aws.amazon.com/iam/home?region=eu-north-1#/users)
     - Replace `{Lambda Name}` with a name of your choice. (This will be the name of your Lambda Function)
     - Replace `{API Name}` with a name of your choice. (This will be the name of your API Gateway)
     ```bash
@@ -168,14 +168,14 @@ Congratulations, Terraform is now done!
 ## AWS Finalization Steps
 
 1. Configure API Gateway
-   - Find your `{API Name}` in `https://eu-north-1.console.aws.amazon.com/apigateway/main/apis?api=unselected&region=eu-north-1` and open it.
+   - Find your `{API Name}` in [AWS API Gateway](https://eu-north-1.console.aws.amazon.com/apigateway/main/apis?api=unselected&region=eu-north-1) and open it.
    - Select `Deploy API`
      - `*New Stage*`
      - Enter a Stage Name. Keep it short, e.g `prod`.
      - Press `Deploy`.
 
 2. Configure Lambda Function
-   - Find your `{Lambda Name}` in `https://eu-north-1.console.aws.amazon.com/lambda/home?region=eu-north-1#/functions` and open it.
+   - Find your `{Lambda Name}` in [AWS Lambda Functions](https://eu-north-1.console.aws.amazon.com/lambda/home?region=eu-north-1#/functions) and open it.
    - Select `Configuration`
      - Select `Function URL`
        - Select `Create Function URL`
