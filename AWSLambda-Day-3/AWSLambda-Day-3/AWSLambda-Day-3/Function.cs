@@ -10,13 +10,17 @@ namespace AWSLambda_Day_3;
 
 public class Function
 {
+    public string FunctionHandler(ILambdaContext context)
+    {
+        return "Meow meow øyvind";
+    }
     /// <summary>
     /// Lambda function to handle API requests.
     /// </summary>
     /// <param name="input">The API Gateway request.</param>
     /// <param name="context">Lambda execution context.</param>
     /// <returns>API Gateway response.</returns>
-    public APIGatewayProxyResponse FunctionHandler(APIGatewayProxyRequest input, ILambdaContext context)
+    /*public APIGatewayProxyResponse FunctionHandler(APIGatewayProxyRequest input, ILambdaContext context)
     {
         string method = input.HttpMethod.ToUpper();
         string responseBody = string.Empty;
@@ -76,4 +80,6 @@ public class Function
             Headers = new Dictionary<string, string> { { "Content-Type", "application/json" } }
         };
     }
+    */
+
 }
