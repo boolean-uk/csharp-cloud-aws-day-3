@@ -1,3 +1,5 @@
+STuck on uploading the funciton
+
 # C# Cloud AWS - Day Three
 
 ## Learning Objectives
